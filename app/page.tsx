@@ -39,21 +39,21 @@ export default function Home() {
       role: "GDGoC Soongsil 24",
       company: "컴퓨터학부",
       topic: "홀로 서버 개발을 찍어먹어보며!!!",
-      image: "/images/speakers/speaker3.jpg"
+      image: "/speakers/LEE.webp"
     },
     {
       name: "안은소",
       role: "GDGoC Soongsil 24",
       company: "컴퓨터학부",
       topic: "개발자도 할 수 있는 디자인 시스템",
-      image: "/images/speakers/speaker4.jpg"
+      image: "/speakers/AN.webp"
     },
     {
       name: "한재찬",
       role: "GDGoC Soongsil 24",
       company: "글로벌미디어학부",
       topic: "기존 기술은 어떻게 바뀔까? : GraphQL을 예시로",
-      image: "/images/speakers/speaker5.jpg"
+      image: "/speakers/HAN.webp"
     }
   ];
 
@@ -84,7 +84,7 @@ export default function Home() {
         
         <div className={`relative z-10 text-center px-4 transform transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
           <div className="mb-8">
-            <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 text-white/90 text-sm font-medium mb-6">
+            <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 text-white/90 text-sm font-medium my-6">
               <Star className="w-4 h-4" />
               Google Developer Groups on Campus
             </div>
@@ -125,7 +125,7 @@ export default function Home() {
             </Button>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto pb-6">
             <div className="bg-white/30 backdrop-blur-sm rounded-2xl p-6 text-white">
               <Calendar className="w-8 h-8 mb-3 mx-auto text-yellow-300" />
               <h3 className="font-semibold mb-2">날짜</h3>
