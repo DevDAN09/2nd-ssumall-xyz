@@ -17,7 +17,7 @@ export default function Home() {
       name: "우수연",
       role: "GDGoC Alumni (GDSC 1st LEAD)",
       company: "IBM",
-      topic: "AI 활용하기",
+      topic: "AI Agents가 바꾸는 소프트웨어 개발 판도",
       image: "/speakers/WO.webp"
     },
     {
@@ -168,7 +168,7 @@ export default function Home() {
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">행사 목표</h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
                   학생 개발자들을 위해 GDGoC Soongsil의 Alumni와 Member분들이 나누어주는
-                  SSUmall Seminar의 이야기를 공유하는 것입니다.
+                  SSUmall Seminar의 이야기를 공유해요!.
                 </p>
                 <div className="flex items-center gap-3 text-blue-600">
                   <Users className="w-5 h-5" />
@@ -181,7 +181,7 @@ export default function Home() {
                 <p className="leading-relaxed">
                   학생 개발자들을 위해 GDGoC Soongsil의 Alumni와 
                   Member들로부터 나누어주는 구글, 커리어, 미래, 
-                  개발자 커뮤니티에 대한 다양한 이야기들을 접해 만나볼게요!
+                  개발자 커뮤니티에 대한 다양한 이야기들을 만나보세요!
                 </p>
               </div>
             </div>
@@ -205,7 +205,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900">네트워킹</h4>
-                    <p className="text-gray-600">동료 개발자들과의 소중한 인맥 형성</p>
+                    <p className="text-gray-600">동료 개발자들과의 소중한 네트워크 형성</p>
                   </div>
                 </div>
                 
