@@ -90,7 +90,7 @@ export default function Home() {
             </div>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight font-['SeoulAlrimTTF-Heavy']">
             2nd Open
             <br />
             <span className="bg-gradient-to-r from-yellow-300 to-orange-400 bg-clip-text text-transparent">
@@ -100,7 +100,7 @@ export default function Home() {
             Seminar
           </h1>
           
-          <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto leading-relaxed font-['NoonnuBasicGothicRegular']">
             학생 개발자들을 위한 특별한 세미나
             <br />
             <span className="text-yellow-300">함께 성장하고, 미래를 그려보세요</span>
@@ -151,12 +151,12 @@ export default function Home() {
       <section id="details" className="py-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 font-['NoonnuBasicGothicRegular']">
               SSUmall Seminar?
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-['NoonnuBasicGothicRegular']">
               SSUmall Seminar는 Google Developer Groups on Campus Soongsil University의 
-              대표적인 활입니다. 숭실대학교 SSU에서 가져오기도 하였지만, 
+              대표적인 활동입니다. 숭실대학교 SSU에서 가져오기도 하였지만, 
               Small(스몰)이라는 뜻도 가지고 있습니다. 이는 어떤 자그마한 내용을 공유해도 
               큰 가치를 지닌다는 뜻입니다.
             </p>
@@ -166,7 +166,7 @@ export default function Home() {
             <div className="space-y-6">
               <div className="bg-white rounded-2xl p-8 shadow-lg">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">행사 목표</h3>
-                <p className="text-gray-600 leading-relaxed mb-4">
+                <p className="text-gray-600 leading-relaxed mb-4 font-['NoonnuBasicGothicRegular']">
                   학생 개발자들을 위해 GDGoC Soongsil의 Alumni와 Member분들이 나누어주는
                   SSUmall Seminar의 이야기를 공유해요!.
                 </p>
@@ -178,7 +178,7 @@ export default function Home() {
 
               <div className="bg-gradient-to-r from-green-400 via-green-500 to-blue-600 rounded-2xl p-8 text-white">
                 <h3 className="text-2xl font-bold mb-4">특별한 경험</h3>
-                <p className="leading-relaxed">
+                <p className="leading-relaxed font-['NoonnuBasicGothicRegular']">
                   학생 개발자들을 위해 GDGoC Soongsil의 Alumni와 
                   Member들로부터 나누어주는 구글, 커리어, 미래, 
                   개발자 커뮤니티에 대한 다양한 이야기들을 만나보세요!
@@ -195,7 +195,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900">Alumni 강연</h4>
-                    <p className="text-gray-600">업계 최고 전문가들의 실무 경험 공유</p>
+                    <p className="text-gray-600 font-['NoonnuBasicGothicRegular']">업계 최고 전문가들의 실무 경험 공유</p>
                   </div>
                 </div>
                 
@@ -205,7 +205,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900">네트워킹</h4>
-                    <p className="text-gray-600">동료 개발자들과의 소중한 네트워크 형성</p>
+                    <p className="text-gray-600 font-['NoonnuBasicGothicRegular']">동료 개발자들과의 소중한 네트워크 형성</p>
                   </div>
                 </div>
                 
@@ -215,7 +215,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900">커리어 이정표</h4>
-                    <p className="text-gray-600">개발자 커리어 패스에 대한 구체적 조언</p>
+                    <p className="text-gray-600 font-['NoonnuBasicGothicRegular']">개발자 커리어 패스에 대한 구체적 조언</p>
                   </div>
                 </div>
               </div>
@@ -231,7 +231,7 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               Speaker
             </h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto font-['NoonnuBasicGothicRegular']">
               Open SSUmall Seminar의 Speaker를 소개합니다
             </p>
           </div>
@@ -312,10 +312,10 @@ export default function Home() {
       {/* CTA Section */}
       <section className="py-24 bg-gradient-to-r from-red-400 via-yellow to-yellow-600">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 font-['NoonnuBasicGothicRegular']">
               서둘러서 신청하세요!
           </h2>
-          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto font-['NoonnuBasicGothicRegular']">
             제한된 좌석으로 선착순 마감됩니다. 
           </p>
           
